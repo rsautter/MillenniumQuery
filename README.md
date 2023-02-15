@@ -9,6 +9,7 @@ To install (colab):
 Example of plot:
 
     import matplotlib.pyplot as plt
+    from millennium import queryMillennium
     data = queryMillennium(snapnum=57)
     fig=plt.figure(figsize=(10,10))
     ax = fig.add_subplot(projection='3d')
